@@ -1,4 +1,4 @@
-export default {
+const partc = {
   background: {
     color: {
       value: "#1d1d1d",
@@ -48,7 +48,7 @@ export default {
         default: "bounce",
       },
       random: false,
-      speed: 6,
+      speed: 3,
       straight: false,
     },
     number: {
@@ -70,3 +70,5 @@ export default {
   },
   detectRetina: true,
 };
+
+export default partc;
